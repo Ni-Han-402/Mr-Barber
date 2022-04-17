@@ -19,11 +19,15 @@
     text-decoration: none;
     margin-right: 20px;
 }
-.login-btn{
-    background-color: #ffffff;
+.btn{
+    background-color: #fadab3;
     border: none;
     font-size: 18px;
     border-radius: 5px;
     padding: 5px 10px;
     margin-bottom: 20px;
+    transition: all 0.3s ease-in;
+}
+.btn:hover{
+    opacity: .8;
 }

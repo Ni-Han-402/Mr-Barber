@@ -1,0 +1,40 @@
+.banner{
+    position: relative;
+}
+.banner-bg img{
+    width: 100%;
+    max-height: 600px;
+    opacity: 20%;
+}
+.banner-content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    gap: 30px;
+    padding: 0 80px;
+    grid-template-columns: 1fr 1fr;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content span{
+    color: darkgoldenrod;
+}
+.content h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.content p{
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.banner-img img{
+    width: 100%;
+    height: 500px;
+}
