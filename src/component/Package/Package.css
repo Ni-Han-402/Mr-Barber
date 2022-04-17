@@ -4,13 +4,22 @@
 .service img{
     width: 100%;
 }
+.service-content{
+    padding: 0 20px;
+}
 .service h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+}
+.service p{
     color: #ffffff;
     font-size: 20px;
     font-weight: 500;
 }
-.service p{
-    color: #ffffff;
+.service p small{
+    font-size: 16px;
+    font-weight: 400;
 }
 .service .checkout-btn{
     margin-top: 20px;
