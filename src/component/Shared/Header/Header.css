@@ -1,0 +1,29 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header .logo img{
+    height: 150px;
+}
+.navigation{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.menu{
+    margin-bottom: 20px;
+}
+.menu .menu-item{
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.login-btn{
+    background-color: #ffffff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
