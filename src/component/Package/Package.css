@@ -1,0 +1,17 @@
+.service{
+    box-shadow: 0px 0px 5px 1px #fff3251c;
+}
+.service img{
+    width: 100%;
+}
+.service h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.service p{
+    color: #ffffff;
+}
+.service .checkout-btn{
+    margin-top: 20px;
+}
