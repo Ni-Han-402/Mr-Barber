@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "img": "https://www.linkpicture.com/q/allyson-carter-ClilMdu189E-unsplash.jpg",
+        "name": "Hair Cut",
+        "price": 40,
+        "description": "Style cut, hairline tidy up & hot towel finish."
+    },
+    {
+        "id": 2,
+        "img": "https://www.linkpicture.com/q/antonio-reynoso-_25iXtaa6oY-unsplash.jpg",
+        "name": "Style Beard",
+        "price": 50,
+        "description": "Style cut, hairline tidy up & hot towel finish."
+    },
+    {
+        "id": 3,
+        "img": "https://www.linkpicture.com/q/lindsay-cash-Md_DhaFsnCQ-unsplash_1.jpg",
+        "name": "Hair Wash",
+        "price": 30,
+        "description": "Style cut, hairline tidy up & hot towel finish."
+    }
+]
