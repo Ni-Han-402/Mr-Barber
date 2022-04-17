@@ -22,3 +22,10 @@
 .form-container button input{
     border: none;
 }
+.form-container p{
+    color: #ffffff;
+}
+.form-container span{
+    color: bisque;
+    cursor: pointer;
+}

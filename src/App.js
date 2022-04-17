@@ -6,6 +6,7 @@ import Blog from './component/Blog/Blog';
 import About from './component/About/About';
 import Login from './component/Auth/Login/Login';
 import PackageDeatail from './component/PackageDetail/PackageDeatail';
+import Register from './component/Auth/Register/Register';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
       </Routes>
     </div>
   );
