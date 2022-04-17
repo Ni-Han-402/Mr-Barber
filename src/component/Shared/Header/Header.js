@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="navigation">
                         <div className="menu">
                             <Link className='menu-item' to={'/home'}>HOME</Link>
-                            <Link className='menu-item' to={'/Checkout'}>CHECKOUT</Link>
+                            <Link className='menu-item' to={'/packages'}>PACKAGES</Link>
                             <Link className='menu-item' to={'/blog'}>BLOGS</Link>
                             <Link className='menu-item' to={'/about'}>ABOUT</Link>
                         </div>
