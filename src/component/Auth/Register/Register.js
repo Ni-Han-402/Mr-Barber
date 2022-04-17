@@ -14,21 +14,25 @@ const Register = () => {
         user,
         loading,
         error,
-      ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth);
 
-    const handleRegister = e =>{
+    if (user) {
+        navigate('/home')
+    }
+    const handleRegister = e => {
         e.preventDefault();
         const name = nameRef.current.value;
         const email = emailRef.current.value;
         const password = passwordRef.current.value
-    
+
 
         createUserWithEmailAndPassword(email, password);
     }
 
-    const navigateRegister = e =>{
+    const navigateRegister = e => {
         navigate('/login')
     }
+
     return (
         <>
             <div className="container">
@@ -37,8 +41,8 @@ const Register = () => {
                         <h1>REGISTER</h1>
                     </div>
                     <div className="form-content">
-                        <form  onSubmit={handleRegister}>
-                            <input type="text" name="name" placeholder='Your Name'/>
+                        <form onSubmit={handleRegister}>
+                            <input type="text" name="name" placeholder='Your Name' />
                             <input ref={emailRef} type="email" name="email" placeholder='Email Adress' required />
                             <input ref={passwordRef} type="password" name="password" placeholder='Password' required />
                             <button className='btn'>REGISTER</button>
