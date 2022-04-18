@@ -12,7 +12,7 @@ const About = () => {
                     </div>
                     <div className="about-content">
                         <h2>Nihan Zayn</h2>
-                        <p>Hi, I'm A Professional Barber. If You Want To Cut Your Hair, Style Your Beard And Wash Your Hair With Shampoo Then Contact With Me.</p>
+                        <p>Hello, I'm Nihan Zayn. I'm a student of Programming hero. I've learned a lot from the Programming Hero. Likewise, I've been able to good at react. I also experienced at UI/UX. I want to work as a Front End Developer.</p>
                     </div>
                 </div>
             </div>
