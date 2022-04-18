@@ -43,3 +43,15 @@
     color: #ffffff;
     padding-bottom: 20px;
 }
+
+
+@media screen and (max-width: 900px){
+    .footer-content{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
+}

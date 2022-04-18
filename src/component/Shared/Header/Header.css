@@ -31,3 +31,16 @@
 .btn:hover{
     opacity: .8;
 }
+
+
+@media screen and (max-width: 600px){
+    .header .logo img{
+        height: 120px;
+    }
+    .menu .menu-item{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px;
+    }
+}
