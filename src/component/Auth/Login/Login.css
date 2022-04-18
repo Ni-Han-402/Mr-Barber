@@ -29,3 +29,9 @@
     color: bisque;
     cursor: pointer;
 }
+
+@media screen and (max-width: 500px){
+        .form-content{
+            width: 300px;
+        }
+}
