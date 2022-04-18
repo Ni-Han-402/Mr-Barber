@@ -1,6 +1,27 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mr-Barber
+
+Firebase [Live Link](https://explore-world-tour.netlify.app/).
+
+
+## Create
+
+ - [Home Section](https://mr-barber-752df.web.app/home)
+ - [Packages Section](https://mr-barber-752df.web.app/packages)
+ - [Blog Section](https://mr-barber-752df.web.app/blog)
+ - [About Section](https://mr-barber-752df.web.app/about)
+ - [Login Section](https://mr-barber-752df.web.app/login)
+ - [Register Section](https://mr-barber-752df.web.app/register)
+## Using Framwork/Library
+
+- React
+- React Router
+- React Boostrap
+- React Toast
+- React Firbase Hook
+- Firbase
+
+
 
 ## Available Scripts
 
