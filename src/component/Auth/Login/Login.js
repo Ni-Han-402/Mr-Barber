@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { auth } from '../../../firebase.init';
+import Loading from '../../Shared/Loading/Loading';
 import Social from '../Social/Social';
 import './Login.css'
 
@@ -24,6 +25,9 @@ const Login = () => {
         sending
     ] = useSendPasswordResetEmail(auth);
 
+    if(loading || sending){
+        return <Loading></Loading>
+    }
     if (user) {
         navigate(from, { replace: true });
     }

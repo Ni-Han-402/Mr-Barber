@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { auth } from '../../../firebase.init';
 import Social from '../Social/Social';
+import Loading from '../../Shared/Loading/Loading';
 
 const Register = () => {
     const nameRef = useRef("")
@@ -18,8 +19,8 @@ const Register = () => {
     ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
-    if (user) {
-
+    if(loading || updating){
+        return <Loading></Loading>
     }
     const handleRegister = async (e) => {
         e.preventDefault();
