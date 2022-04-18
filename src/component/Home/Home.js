@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
 import Package from '../Package/Package';
 import './Home.css'
@@ -7,10 +7,13 @@ const Home = () => {
     const [ packages, setPackages] = useState([]);
 
     useEffect( () =>{
-        fetch('packages.json')
+        const url = 'https://ni-han-402.github.io/jsonapi/packages.json';
+        fetch(url)
         .then(res => res.json())
         .then(data => setPackages(data))
-    }, [])
+    }, []);
+
+    
     return (
         <div>
             <Banner></Banner>

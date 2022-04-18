@@ -10,7 +10,7 @@
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px #fff3251c;
 }
-.form-container input{
+.form-container input, .newsletter input{
     width: 100%;
     border: 1px solid #fff3251c;
     background: transparent;

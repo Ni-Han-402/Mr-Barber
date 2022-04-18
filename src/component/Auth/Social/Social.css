@@ -1,0 +1,20 @@
+.diveder-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.diveder-container .devider{
+    width: 45%;
+    height: 2px;
+    background-color: bisque;
+}
+.social-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-btn img{
+    width: 40px;
+}

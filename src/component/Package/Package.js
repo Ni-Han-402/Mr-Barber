@@ -16,7 +16,7 @@ const Package = ({ service }) => {
                     <h2>{name}</h2>
                     <p>{price}$</p>
                     <p><small>{description}</small></p>
-                    <button onClick={() => navigateCheckoutDetail(id)} className='btn checkout-btn'>Checkout</button>
+                    <button onClick={() => navigateCheckoutDetail(id)} className='btn checkout-btn'>BOOK A CHAIR</button>
                 </div>
             </div>
         </>

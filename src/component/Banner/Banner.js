@@ -16,7 +16,7 @@ const Banner = () => {
                             <h1><span>Nihan</span> Zayn</h1>
                             <p>Hi, I'm a Professional Barber. If You Want To Cut Your Hair, Style Your Beard and Wash Your Hair With Shampoo Then Contact With Me.</p>
                             <div className="contact-btn">
-                                <button className='btn'>Make An Appointment</button>
+                                <button className='btn'>BOOK AN APPOINTMENT</button>
                             </div>
                         </div>
                         <div className="banner-img">
